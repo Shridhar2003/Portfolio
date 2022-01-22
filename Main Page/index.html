@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #5045FF;">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,88 @@
   <title>Shridhar Shashank Joshi</title>
 
   <style>
-    
-    .navbar{
+    .navbar {
+      width: auto;
+      max-height: fit-content;
       background-color: #978AB5;
+      color: #fbf8ff;
+      border-radius: 10px;
+
 
     }
 
-    .navbar ul{
-      overflow: auto;
-      
-    }
-    .navbar li{
+    .navbar span {
       font-family: 'Roboto Slab';
       font-size: 22px;
-      text-align: right;
-      float:left;
-      list-style:none;
+      text-align: left;
+      color: #fbf8ff;
+      float: left;
+      list-style: none;
       margin: 20px 3px;
+      padding: 3px 12px;
+      overflow: hidden;
 
     }
-    
-    .navbar li a{
-      padding: 3px 3px;
-      text-decoration:none;
+
+    .navbar span:hover {
+      font-family: 'Roboto Slab';
+      font-size: 22px;
+      text-align: left;
+      float: left;
+      list-style: none;
+      margin: 20px 3px;
+      padding: 3px 12px;
+      overflow: auto;
+      color: #5045ff;
+      text-decoration: initial;
+    }
+
+    .navbar ul {
+      overflow: auto;
+
+    }
+
+    .navbar li {
+      font-family: 'Roboto Slab';
+      font-size: 22px;
+      text-align: left;
+      float: right;
+      list-style: none;
+      margin: 20px 3px;
+
+
+    }
+
+    .navbar li a {
+      padding: 3px 30px;
+      text-decoration: none;
       color: #FBF8FF;
+    }
+
+    .navbar li a:hover {
+      padding: 3px 30px;
+      text-decoration: none;
+      color: #5045ff;
+    }
+
+    body{
+      background-color:#5045ff;
+
     }
   </style>
 </head>
+
 <body>
   <nav class="navbar">
+    <span>
+      <b>Shridhar Shashank Joshi</b>
+    </span>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">My Hobbies</a></li>
       <li><a href="#">Skills</a></li>
+      <li><a href="#">My Hobbies</a></li>
+      <li><a href="index.html">Home</a></li>
     </ul>
   </nav>
 </body>
+
 </html>
